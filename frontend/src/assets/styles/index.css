@@ -1,0 +1,44 @@
+
+.form-input {
+    @apply appearance-none block w-full border rounded py-3 px-4 mb-3 bg-gray-200;
+}
+.form-error {
+    @apply appearance-none text-black text-xs italic p-4 border-blue-400 rounded;
+}
+.form-label {
+    @apply block uppercase tracking-wide text-xs font-bold mb-2;
+}
+.form-card {
+    @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2 flex w-full;
+}
+.form-btn {
+    @apply bg-blue-500 rounded-lg px-6 py-2 text-white font-semibold shadow;
+}
+.form-btn:hover {
+    @apply bg-blue-600;
+}
+.form-btn:focus {
+    @apply outline-none;
+}
+
+.table-cell {
+    @apply px-4 py-2 border;
+}
+
+.table-head {
+    @apply bg-gray-400 text-left;
+}
+
+.table-standard {
+    @apply flex-grow w-full bg-white shadow-md rounded;
+}
+.create-btn {
+    @apply justify-between items-center mb-6;
+}
+
+.action-btn {
+    @apply rounded-lg px-6 py-2 text-white font-semibold shadow m-1;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
